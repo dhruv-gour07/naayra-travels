@@ -22,7 +22,7 @@ export default function About() {
         <h1 className="mt-7 ml-7 text-3xl md:text-5xl bg-clip-text bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           Our Story
         </h1>
-        <p className="text-lg pt-3 md:text-3xl ml-10 font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
+        <p className="text-lg pt-3 md:text-3xl font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
           At Naayra travels, <br />
           we understand the importance of getting from point A to point B with
           ease. <br />
@@ -36,7 +36,7 @@ export default function About() {
         <h1 className="mt-4 ml-7 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           What Sets Us Apart From Other Businesses
         </h1>
-        <p className="text-lg pt-3 md:text-3xl ml-10 font-light font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
+        <p className="text-lg pt-3 md:text-3xl font-light font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
           <span className="font-extrabold text-2xl md:font-extrabold md:text-3xl">
             {" "}
             1 Reliable Fleet:{" "}
@@ -67,7 +67,7 @@ export default function About() {
         <h1 className="mt-4 ml-7 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           Our Commitment
         </h1>
-        <p className="text-lg pt-3 md:text-3xl ml-10 font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
+        <p className="text-lg pt-3 md:text-3xl font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
           We strive to make every journey with us enjoyable and stress-free.{" "}
           <br />
           From airport transfers to daily commuting, we prioritize your comfort
