@@ -64,10 +64,10 @@ export default function Contact() {
   }, [text]);
   return (
     <>
-      <div className="mx-20 my-24 sm:mx-56 sm:my-32 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
-        <div className="flex min-h-full flex-1 flex-col justify-center px-12 py-12 lg:px-8">
+      <div className="mx-7 my-24 sm:mx-56 sm:my-32 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
+        <div className="flex min-h-full flex-1 flex-col justify-center px-4 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-            <h1 className="text-4xl pt-10  md:text-5xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-600 bg-opacity-50">
+            <h1 className="text-2xl pt-10 md:text-5xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-600 bg-opacity-50">
               Share Your Details <br />
             </h1>
           </div>
