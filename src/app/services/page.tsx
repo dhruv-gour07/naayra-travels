@@ -2,6 +2,45 @@ import { HoverEffect } from "@/components/ui/card-hover-effect";
 import Link from "next/link";
 
 export default function Services() {
+  const projects = [
+  {
+    title: "Rapid City Transfer",
+    description:
+      "Rapid city transfer is a term used by some taxi or cab services to describe their service of bringing",
+    link: "",
+  },
+  {
+    title: "Online Booking",
+    description:
+      "You can share us your details we will contact you regarding the booking.",
+    link: "",
+  },
+  {
+    title: "Airport Transport",
+    description:
+      "It can include different types of vehicles, such as taxis, car hire, airport pickup etc.",
+    link: "",
+  },
+  {
+    title: "Event Transport",
+    description:
+      "You can advance book and reserve a car for yourself  or your group with our Event Car Service.",
+    link: "",
+  },
+  {
+    title: "Regular Transport",
+    description:
+      "Regular transports refers to routine and scheduled transportation services .",
+    link: "",
+  },
+  {
+    title: "Tour Transport",
+    description:
+      "Tour transports refers to transportation services specifically designed to cater needs of tourists.",
+    link: "",
+  },
+];
+
   return (
     <>
       <div className="mx-8 my-12 sm:mx-12 sm:my-32 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
@@ -52,41 +91,3 @@ export default function Services() {
     </>
   );
 }
-export const projects = [
-  {
-    title: "Rapid City Transfer",
-    description:
-      "Rapid city transfer is a term used by some taxi or cab services to describe their service of bringing",
-    link: "",
-  },
-  {
-    title: "Online Booking",
-    description:
-      "You can share us your details we will contact you regarding the booking.",
-    link: "",
-  },
-  {
-    title: "Airport Transport",
-    description:
-      "It can include different types of vehicles, such as taxis, car hire, airport pickup etc.",
-    link: "",
-  },
-  {
-    title: "Event Transport",
-    description:
-      "You can advance book and reserve a car for yourself  or your group with our Event Car Service.",
-    link: "",
-  },
-  {
-    title: "Regular Transport",
-    description:
-      "Regular transports refers to routine and scheduled transportation services .",
-    link: "",
-  },
-  {
-    title: "Tour Transport",
-    description:
-      "Tour transports refers to transportation services specifically designed to cater needs of tourists.",
-    link: "",
-  },
-];
