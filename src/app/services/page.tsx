@@ -1,7 +1,7 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import Link from "next/link";
 
-export default function CardHoverEffectDemo() {
+export default function Services() {
   return (
     <>
       <div className="mx-8 my-12 sm:mx-12 sm:my-32 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
