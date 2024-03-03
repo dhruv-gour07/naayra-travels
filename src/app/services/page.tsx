@@ -78,11 +78,9 @@ export default function Services() {
             <h1 className="text-xl md:text-2xl font-semibold font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-600 bg-opacity-50">
               Phone
             </h1>
-            <Link href="tel:+917069798065,+919327873472">
+            <Link href="tel:+917069798065">
               <p className="text-sm pt-4 md:text-xl md:pt-0 hover:text-yellow-400  font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
-                +91 7069798065,
-                <br />
-                +91 9327873472
+                +91 7069798065
               </p>
             </Link>
           </div>
