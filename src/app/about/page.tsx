@@ -3,8 +3,8 @@ import { LampDemo } from "@/components/lamp-about";
 export default function About() {
   return (
     <>
-      <div className="mx-8 my-24 sm:mx-12 sm:my-32 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
-        <h1 className="text-4xl pt-10  md:text-7xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500 bg-opacity-50">
+      <div className="mx-8 my-24 sm:mx-12 sm:my-48 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
+        <h1 className="text-4xl pt-10 md:text-7xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500 bg-opacity-50">
           Naayra Travels
           <br />
         </h1>
@@ -18,8 +18,8 @@ export default function About() {
           service. <br />
         </p>
       </div>
-      <div className="items-center justify-center mx-20">
-        <h1 className="mt-7 ml-7 text-3xl md:text-5xl bg-clip-text bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
+      <div className="items-center justify-center mx-7">
+        <h1 className="mt-4 text-3xl md:text-5xl bg-clip-text bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           Our Story
         </h1>
         <p className="text-lg pt-3 md:text-3xl font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
@@ -33,7 +33,7 @@ export default function About() {
           and a commitment to customer satisfaction, we've grown into a trusted
           name in the transportation industry. <br />
         </p>
-        <h1 className="mt-4 ml-7 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
+        <h1 className="mt-4 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           What Sets Us Apart From Other Businesses
         </h1>
         <p className="text-lg pt-3 md:text-3xl font-light font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
@@ -64,7 +64,7 @@ export default function About() {
           Need a ride at any hour? We've got you covered. Our services are
           available round the clock to accommodate your schedule. <br />
         </p>
-        <h1 className="mt-4 ml-7 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
+        <h1 className="mt-4 text-3xl md:text-5xl bg-clip-text md:mt-20 bg-opacity-50 font-bold font-mono text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500">
           Our Commitment
         </h1>
         <p className="text-lg pt-3 md:text-3xl font-semibold font-mono bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
@@ -77,8 +77,9 @@ export default function About() {
           Thank you for considering us as your preferred taxi service. <br />
           We look forward to being a reliable partner on your journeys. <br />
         </p>
-        <h1 className="text-4xl pt-10 mx-4 md:text-7xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500 bg-opacity-50">
-          Naayra Travels - Where Your Journey Matters!
+        <h1 className="text-3xl flex pt-10 mx-1 md:text-7xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500 bg-opacity-50">
+          Naayra Travels
+          <br /> Where Your Journey Matters!
         </h1>
       </div>
     </>
