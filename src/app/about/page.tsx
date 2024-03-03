@@ -1,5 +1,3 @@
-import { LampDemo } from "@/components/lamp-about";
-
 export default function About() {
   return (
     <>
