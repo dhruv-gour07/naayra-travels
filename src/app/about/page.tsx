@@ -3,7 +3,7 @@ import { LampDemo } from "@/components/lamp-about";
 export default function About() {
   return (
     <>
-      <div className="mx-8 my-12 sm:mx-12 sm:my-32 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
+      <div className="mx-8 my-24 sm:mx-12 sm:my-32 md:mx-56 object-cover border-transparent rounded-3xl bg-slate-100 bg-opacity-30">
         <h1 className="text-4xl pt-10  md:text-7xl font-semibold italic font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-yellow-100 to-yellow-500 bg-opacity-50">
           Naayra Travels
           <br />
