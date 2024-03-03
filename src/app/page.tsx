@@ -21,6 +21,7 @@ export default function Home() {
         <p className="text-lg pt-40 md:text-3xl md:pt-0 font-mono text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-100 to-slate-400 bg-opacity-50">
           BEST IN CITY TRUSTED CAB SERVIES IN GUJARAT <br />
           Wanna book a cab call us on:
+          <br />
           <Link href="tel:+917069798065">+91 7069798065</Link>
           <br />
           Or directly send us your details via
